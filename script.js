@@ -14,43 +14,43 @@ function load() {
                 break;
             case "male":
                 content = document.getElementById("showGender").innerHTML = "";
-                document.getElementById("showGender").insertAdjacentHTML("beforeend", `<img src="/pictures/male.png" alt="male">`);
+                document.getElementById("showGender").insertAdjacentHTML("beforeend", `<img src="pictures/male.png" alt="male">`);
                 break;
             case "female":
                 content = document.getElementById("showGender").innerHTML = "";
-                document.getElementById("showGender").insertAdjacentHTML("beforeend", `<img src="/pictures/female.png" alt="female">`);
+                document.getElementById("showGender").insertAdjacentHTML("beforeend", `<img src="pictures/female.png" alt="female">`);
                 break;
             case "dragonborn":
                 content = document.getElementById("showRace").innerHTML = "";
-                document.getElementById("showRace").insertAdjacentHTML("beforeend", `<img src="/pictures/dragonborn.png" alt="dragonborn">`);
+                document.getElementById("showRace").insertAdjacentHTML("beforeend", `<img src="pictures/dragonborn.png" alt="dragonborn">`);
                 break;
             case "filborg":
                 content = document.getElementById("showRace").innerHTML = "";
-                document.getElementById("showRace").insertAdjacentHTML("beforeend", `<img src="/pictures/filborgtoken.png" alt="filborg">`);
+                document.getElementById("showRace").insertAdjacentHTML("beforeend", `<img src="pictures/filborgtoken.png" alt="filborg">`);
                 break;
             case "fairy":
                 content = document.getElementById("showRace").innerHTML = "";
-                document.getElementById("showRace").insertAdjacentHTML("beforeend", `<img src="/pictures/fairy.png" alt="fairy">`);
+                document.getElementById("showRace").insertAdjacentHTML("beforeend", `<img src="pictures/fairy.png" alt="fairy">`);
                 break;
             case "elf": 
                 content = document.getElementById("showRace").innerHTML = "";
-                document.getElementById("showRace").insertAdjacentHTML("beforeend", `<img src="/pictures/elf.png" alt="elf">`);
+                document.getElementById("showRace").insertAdjacentHTML("beforeend", `<img src="pictures/elf.png" alt="elf">`);
                 break;
             case "fighter":
                 content = document.getElementById("showClass").innerHTML = "";
-                document.getElementById("showClass").insertAdjacentHTML("beforeend", `<img src="/pictures/fighter.png" alt="fighter">`);
+                document.getElementById("showClass").insertAdjacentHTML("beforeend", `<img src="pictures/fighter.png" alt="fighter">`);
                 break;
             case "sorcerer":
                 content = document.getElementById("showClass").innerHTML = "";
-                document.getElementById("showClass").insertAdjacentHTML("beforeend", `<img src="/pictures/sorcerer.png" alt="sorcerer">`);
+                document.getElementById("showClass").insertAdjacentHTML("beforeend", `<img src="pictures/sorcerer.png" alt="sorcerer">`);
                 break;
             case "rogue":
                 content = document.getElementById("showClass").innerHTML = "";
-                document.getElementById("showClass").insertAdjacentHTML("beforeend", `<img src="/pictures/rogue.png" alt="rogue">`);
+                document.getElementById("showClass").insertAdjacentHTML("beforeend", `<img src="pictures/rogue.png" alt="rogue">`);
                 break;
             case "paladin":
                 content = document.getElementById("showClass").innerHTML = "";
-                document.getElementById("showClass").insertAdjacentHTML("beforeend", `<img src="/pictures/paladin.png" alt="paladin">`);
+                document.getElementById("showClass").insertAdjacentHTML("beforeend", `<img src="pictures/paladin.png" alt="paladin">`);
                 break;
             
             default:
