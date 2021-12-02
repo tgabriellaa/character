@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Character</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Choose your character</h1>
+    <div id="root">
+        <div class="possibilities">
+            <form id="chooseCharacter">
+                <div>
+                    <label for="name" class="title">Character's name: </label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div>
+                    <label for="gender" class="title">Gender</label>
+                    <ol>
+                        <li>
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                        </li>
+                    </ol>
+                </div>
+
+                <div>
+                    <label for="race" class="title">Race</label>
+                    <ol>
+                        <li>
+                            <input type="radio" name="race" id="dragonborn">
+                            <label for="dragonborn">Dragonborn</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="race" id="filborg">
+                            <label for="filborg">Filborg</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="race" id="fairy">
+                            <label for="fairy">Fairy</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="race" id="elf">
+                            <label for="elf">Elf</label>
+                        </li>
+                    </ol>
+                </div>
+
+                <div>
+                    <label for="class" class="title">Class</label>
+                    <ul>
+                        <li>
+                            <input type="radio" name="class" id="fighter">
+                            <label for="fighter">Fighter</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="class" id="sorcerer">
+                            <label for="sorcerer">Sorcerer</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="class" id="rogue">
+                            <label for="rogue">Rogue</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="class" id="paladin">
+                            <label for="paladin">Paladin</label>
+                        </li>
+                    </ul>
+
+                </div>
+            </form>
+        </div>
+
+        <div id="showCharacter">
+            <div id="showName">
+                
+            </div>
+            <div id="showGender">
+                
+            </div>
+            <div id="showRace">
+                
+            </div>
+            <div id="showClass">
+                 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

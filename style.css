@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;  
+    box-sizing: border-box;
+    
+    background: transparent;
+    
+    font-family: inherit;
+    text-decoration: none;
+}
+  
+ol, 
+ul, 
+li {
+    display: block;
+    list-style: none;
+}
+  
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+  
+a img {
+    border: none;
+}
+  
+button, 
+a {
+    cursor: pointer; 
+    color: inherit;
+}
+  
+textarea {
+    resize: none;
+}
+  
+button, 
+input, 
+textarea, 
+select {
+/*     appearance: none !important; 
+    -webkit-appearance: none !important; 
+    border-radius: 0; */
+}
+/* end of CSS reset */
+
+body {
+    background-color: #AAAAAA;
+    color: #4C4C6D;
+}
+
+img {
+    max-height: 90px;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+label.title {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.4em;
+}
+
+h1 {
+    display: block;
+    margin: 20px;
+    color: #F6F6F6;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.possibilities {
+    padding: 20px;
+    background-color: #FFC7C7;
+    width: 300px;
+}
+
+#showCharacter {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #FFE2E2;
+    width: 300px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+}
+
+input#name {
+    width: 260px;
+    background-color: #F6F6F6;
+    height: 2em;
+}
