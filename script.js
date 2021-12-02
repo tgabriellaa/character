@@ -32,7 +32,7 @@ function load() {
                 content = document.getElementById("showRace").innerHTML = "";
                 document.getElementById("showRace").insertAdjacentHTML("beforeend", `<img src="/pictures/fairy.png" alt="fairy">`);
                 break;
-            case "elf":
+            case "elf": 
                 content = document.getElementById("showRace").innerHTML = "";
                 document.getElementById("showRace").insertAdjacentHTML("beforeend", `<img src="/pictures/elf.png" alt="elf">`);
                 break;
